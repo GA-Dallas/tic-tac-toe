@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.top {border-top: 3px solid black;}
+.bottom {border-bottom: 3px solid black;}
+.left {border-left: 3px solid black;}
+.right {border-right: 3px solid black;}
+
+body {
+    text-align: center;
+}
+
+#gameboard {
+    margin: 100px auto;
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 100px;
+    width: 200px;
+    height: 200px;
+}
