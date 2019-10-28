@@ -39,10 +39,7 @@ init();
 
 function init() {
     turn = 1
-    gameboard = [null, null, null, 
-                null, null, null, 
-                null, null, null
-                ];
+    gameboard = new Array(9).fill(null);
     winner = false;
     render();
 }
